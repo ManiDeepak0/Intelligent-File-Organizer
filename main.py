@@ -14,7 +14,7 @@ from utils.validators import validate_directory
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="SWYNEX Intelligent File Organizer - scan, organize and detect duplicate files."
+        description="Intelligent File Organizer - scan, organize and detect duplicate files."
     )
     parser.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
     sub = parser.add_subparsers(dest="command", required=True)
