@@ -1,25 +1,66 @@
-# Virtual environment
-venv/
-.env/
 
-# Python cache
+# ==========================
+# Python Cache Files
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
 # Testing
+# ==========================
 .pytest_cache/
+.coverage
+htmlcov/
 
-# Logs
-logs/*.log
-
-# Generated reports
-reports/*.csv
-reports/*.json
-
-# IDE
+# ==========================
+# IDE Settings
+# ==========================
 .vscode/
 .idea/
 
-# OS files
-Thumbs.db
+# ==========================
+# Operating System Files
+# ==========================
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Application Logs
+# ==========================
+logs/*.log
+
+# ==========================
+# Generated Reports
+# ==========================
+reports/*.csv
+reports/*.json
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.swp
+
+# ==========================
+# Keep Required Empty Folders
+# ==========================
+!history/.gitkeep
+!logs/.gitkeep
+!reports/.gitkeep
